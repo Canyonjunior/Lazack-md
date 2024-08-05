@@ -6,31 +6,31 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '255734980103', process.env.OWNER_NAME || 'lazack28', true],
-  ['255779679079', 'lazack 28', true]
+  [process.env.OWNER_NUMBER || '255785961019', process.env.OWNER_NAME || 'canyon junior', true],
+  ['255785961019', 'canyon junior', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || '𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 v 2'
-global.botname = process.env.BOT_NAME || '𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿'
+global.author = process.env.OWNER_NAME || 'CANYON MD'
+global.botname = process.env.BOT_NAME || 'CANYON MD'
 global.oname = author
 global.bname = botname
 
 //Extra Shortcuts
-global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/Lazack_28'
-global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9'
+global.smlink = process.env.SOCIAL_MEDIA_LINK || ''
+global.gclink = process.env.GROUP_LINK || ''
  
 //Apikeys
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || '𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 🥵'
-global.stkpack = process.env.BOT_NAME || '𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿 🥵'
-global.stkowner = process.env.OWNER_NAME || '© lazack md v2'
+global.packname = process.env.BOT_NAME || 'CANYON JUNIOR'
+global.stkpack = process.env.BOT_NAME || 'CANYON JUNIOR'
+global.stkowner = process.env.OWNER_NAME || 'CANYON JUNIOR'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with Lazack'
+global.maker = process.env.MAKER || 'Made with canyon'
 
 //global emojis
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
